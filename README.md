@@ -1,0 +1,1 @@
+# analystbot projekt first test
