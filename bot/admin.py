@@ -1,3 +1,7 @@
 from django.contrib import admin
+from polls.models import Entry
 
-# Register your models here.
+
+@admin.register(Entry)
+class EntryAdmin(admin.ModelAdmin):
+    ...
